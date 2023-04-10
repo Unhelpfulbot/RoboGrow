@@ -61,6 +61,7 @@ html, body{
     display: flex;
     position: relative;
     background-color: rgb(143, 216, 143);
+    background-image: url("bamboo.jpg");
     margin: 0;
     padding: 0;
 }
@@ -162,17 +163,17 @@ html, body{
     font-size: calc(16px + 1vw);
     color: black;
     text-shadow: 1px 1px 1px black, 2px 2px 1vw rgb(203, 145, 36), 3px 3px 2vw gray;
-    font-family: 'Lobster', serif;
+    font-family: 'Lora', serif;
 }
 
 #desc-text{
     width: 80%;
-    margin-left: 9vw;
-    font-weight: 300;
+    margin-left: 8vw;
+    font-weight: 800;
     font-size: calc(14px + 1vw);
-    color: rgb(61, 61, 61);
-    text-shadow: 1px 1px 1px black;
-    font-family: 'Lobster', serif;
+    color: black;
+    text-shadow: 1px 1px 1px rgb(96, 95, 95);
+    font-family: "EB Garamond", serif;
 }
 
 /* Page 2 */
@@ -295,6 +296,11 @@ html, body{
     height: 180px;
     margin: 5px;
     border: 2px dotted black;
+}
+#input-name{
+    font-size: 24px;
+    text-shadow: 1px 1px 1px gray;
+    font-weight: 700;
 }
 
 /* Page 4 */

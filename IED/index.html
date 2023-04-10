@@ -8,9 +8,12 @@
     <link rel="stylesheet" href="web.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylessheet" href="https://fonts.googleapis.com/css?family=EB+Garamond">
+    <link rel="stylessheet" href="https://fonts.googleapis.com/css?family=Lora">
     <script type="text/javascript" src="web.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
     <script type="text/javascript" src="plantdata.js"></script>
+    <script type="text/c++" src="arduino-vscode.ino"></script>
 </head>
 
 <body>
@@ -28,7 +31,7 @@
         </div>
         <div id="team">
             <p id="slogan"> Team members </p>
-            <p id="desc-text"> Jacky Chen, Ella Graff, Michelle Fratianni, Nikolhas Birkeland, Nicholas Florentino, Ryan Smith </p>
+            <p id="desc-text"> Jacky Chen, Ella Graff, Michelle Fratianni, Nikolas Birkeland, Nicholas Florentino, Ryan Smith </p>
         </div>
     </div>
     <div class="page2" id="page2">
@@ -75,16 +78,17 @@
                             var water = houseplant[i].water;
                             var image = houseplant[i].img;
                             var moist = houseplant[i].moisture;
+                            var ref = houseplant[i].ref;
                             var plantupper = plant.toUpperCase();
                             if(typed == "all"){
-                                generate(plant, image, sunlight, diff, water, moist);
+                                generate(plant, image, sunlight, diff, water, moist, ref);
                                 num += 1;
                             }
                             else{
                             for( j = 0; j < words.length; j++){
                                 if(!plants.includes(plant)){
                                 if(plantupper.includes(words[j].toUpperCase())){
-                                    generate(plant, image, sunlight, diff, water, moist);
+                                    generate(plant, image, sunlight, diff, water, moist, ref);
                                     num += 1;
                                     plants.push(plant);
                                 }
@@ -98,7 +102,7 @@
                         ran = true;
                         num = 0;
                     }
-                    function generate(plant, image, sunlight, diff, water, moist){
+                    function generate(plant, image, sunlight, diff, water, moist, reference){
                         const div = document.createElement("div");
                         div.id = "remove";
                         div.className = "remove";
@@ -117,6 +121,7 @@
                         div2.style.width = "100%";
                         div.appendChild(div2);
                         const img = document.createElement("img");
+                        img.title = reference;
                         img.style.width = '150px';
                         img.style.display = "block";
                         img.style.height = '100%';
@@ -158,17 +163,11 @@
         <a href="#page1"><button id="return"> Return </button></a>
         <div id="topbg2"> <center><p id="assembletxt">Assembling Process</p></center> </div>
         <div id="instruction">
-            <div id="extension">
-            <div id="instruct-container">
                 <center>
-                <img id="partimg" src="">
-                <p id="instruct-desc">
-                    Place holder
-                </p>
+                    <p id="input-name">Hours of Sunlight</p> <input class="inputbox" name="sunlight" type="text" placeholder="6">
+                    <p id="input-name">Minimum Moisture(%)</p> <input class="inputbox" name="moisture" type="text" placeholder="21">
+                    <p id="input-name">Placeholder</p> <input class="inputbox" name="sunlight" type="text" placeholder="6">
                 </center>
-            </div>
-                </center>
-            </div>
             </div>
         </div>
     </div>

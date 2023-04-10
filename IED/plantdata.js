@@ -5,7 +5,8 @@ var houseplant = [
         moisture: '21 to 40',
         sunlight: '2',
         difficulty: '2',
-        img: 'https://th.bing.com/th/id/R.779093e2047b23c7cb4bd4be5115038d?rik=vKXfxbV7%2b8jatQ&pid=ImgRaw&r=0'
+        img: 'https://th.bing.com/th/id/R.779093e2047b23c7cb4bd4be5115038d?rik=vKXfxbV7%2b8jatQ&pid=ImgRaw&r=0',
+        ref: 'https://www.plantvine.com/product/asparagus-densiflorus-sprengeri-fern-asparagus-fern/'
     },
     {
         name: 'Aglaonema',
@@ -13,7 +14,8 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '9',
         difficulty: '3',
-        img: 'https://th.bing.com/th/id/OIP._8CffSzGfoYIsfb5UET6nAHaHa?w=186&h=185&c=7&r=0&o=5&dpr=1.1&pid=1.7'
+        img: 'https://mobileimages.lowes.com/productimages/a7078bc5-670a-4352-bfe4-1a86c5d6b16f/49043969.jpg?size=xl',
+        ref: 'https://www.lowes.com/pd/Trending-Tropicals-Chinese-Evergreen-Aglaonema-House-Plant-in-6-in-Pot/5013595929?cm_mmc=shp-_-c-_-prd-_-lwn-_-bng-_-PLA_LWN_123_Live-Goods-_-5013595929-_-Online-_-0-_-0&ds_rl=1286981&msclkid=6888882b413b197bcc5aec0efcca0f0d&gclid=6888882b413b197bcc5aec0efcca0f0d&gclsrc=3p.ds'
     },
     {
         name: 'Chinese Evergreen',
@@ -21,7 +23,8 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '9',
         difficulty: '3',
-        img: 'https://th.bing.com/th/id/OIP._8CffSzGfoYIsfb5UET6nAHaHa?w=186&h=185&c=7&r=0&o=5&dpr=1.1&pid=1.7'
+        img: 'https://mobileimages.lowes.com/productimages/a7078bc5-670a-4352-bfe4-1a86c5d6b16f/49043969.jpg?size=xl',
+        ref: 'https://www.lowes.com/pd/Trending-Tropicals-Chinese-Evergreen-Aglaonema-House-Plant-in-6-in-Pot/5013595929?cm_mmc=shp-_-c-_-prd-_-lwn-_-bng-_-PLA_LWN_123_Live-Goods-_-5013595929-_-Online-_-0-_-0&ds_rl=1286981&msclkid=6888882b413b197bcc5aec0efcca0f0d&gclid=6888882b413b197bcc5aec0efcca0f0d&gclsrc=3p.ds'
     },
     {
         name: 'Monstera',
@@ -29,7 +32,8 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '11',
         difficulty: '3',
-        img: 'https://th.bing.com/th/id/R.6b4882278444edd7e6110b872568f5a2?rik=u9QFcZHlsO0ITg&pid=ImgRaw&r=0'
+        img: 'https://mobileimages.lowes.com/productimages/3c8d2c7d-b9af-4916-9188-20446125fa2f/15400018.jpg?size=xl',
+        ref: 'https://www.lowes.com/pd/Costa-Farms-6-in-Little-Swiss-Pant-in-Ceramic-Planter-Ttbgm/1002662048'
     },
     {
         name: 'Maranta Prayer Plant',
@@ -37,7 +41,8 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '5',
         difficulty: '5',
-        img: 'https://th.bing.com/th/id/R.dd6c96d4f5bbbe2534dfe10f1a25dc58?rik=%2f5OC%2fMJBYy4SiA&pid=ImgRaw&r=0'
+        img: 'https://th.bing.com/th/id/R.dd6c96d4f5bbbe2534dfe10f1a25dc58?rik=%2f5OC%2fMJBYy4SiA&pid=ImgRaw&r=0',
+        ref: 'https://www.waitrosegarden.com/plants/_/maranta-leuconeura-var-leuconeura-fascinator/classid.2000034443/'
     },
     {
         name: 'Maranta leuconeura',
@@ -45,7 +50,8 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '5',
         difficulty: '5',
-        img: 'https://th.bing.com/th/id/R.dd6c96d4f5bbbe2534dfe10f1a25dc58?rik=%2f5OC%2fMJBYy4SiA&pid=ImgRaw&r=0'
+        img: 'https://th.bing.com/th/id/R.dd6c96d4f5bbbe2534dfe10f1a25dc58?rik=%2f5OC%2fMJBYy4SiA&pid=ImgRaw&r=0',
+        ref: 'https://www.waitrosegarden.com/plants/_/maranta-leuconeura-var-leuconeura-fascinator/classid.2000034443/'
     },
     {
         name: 'Parlor Palm',
@@ -53,7 +59,9 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '8',
         difficulty: '4',
-        img: 'https://th.bing.com/th?id=OSK.HEROxC-CS0wSxSeT6-4ZUseUtjRLIDgy4pJMV51yGiTZ4KI&w=472&h=280&c=13&rs=2&o=6&dpr=1.1&pid=SANGAM'
+        img: 'https://mobileimages.lowes.com/productimages/c5401573-641a-4c1f-85d2-dced6b230a0d/49044039.jpg?size=xl',
+        ref: 'https://www.lowes.com/pd/Costa-Farms/5013595863'
+
     },
     {
         name: 'Pothos',
@@ -61,7 +69,8 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '12',
         difficulty: '2',
-        img: 'https://celebratednest.com/wp-content/uploads/2022/07/Pothos_in_kitchen-1152x1536.jpg'
+        img: 'https://mobileimages.lowes.com/productimages/b8b9105d-2315-4a74-85c1-c6cbfc8a95fd/42909908.jpg?size=xl',
+        ref: 'https://www.lowes.com/pd/Pearl-and-Jade-Pothos-Plant-in-6in-Grower-Pot/5001805245'
     },
     {
         name: 'Fiddle Leaf Fign',
@@ -69,7 +78,8 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '7',
         difficulty: '7',
-        img: 'https://i.pinimg.com/736x/ef/b2/a5/efb2a55934a6a01c425a833cfc5df2ea.jpg'
+        img: 'https://mobileimages.lowes.com/productimages/18f20902-6bef-4040-97d0-398df63a5cd2/10850325.jpg?size=xl',
+        ref: 'https://www.lowes.com/pd/Costa-Farms-10-in-Fiddle-Leaf-Fig-in-Seagrass-Planter-Fl11/1000889158'
     },
     {
         name: 'Guiana Chestnut',
@@ -77,7 +87,8 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '6',
         difficulty: '1',
-        img: 'https://statics.rayagarden.com/20201223/Guiana-Chestnut1.jpg'
+        img: 'https://statics.rayagarden.com/20201223/Guiana-Chestnut1.jpg',
+        ref: 'https://www.rayagarden.com/garden-plants/guiana-chestnut-profile.html'
     },
     {
         name: 'Chinese Money Plant',
@@ -85,7 +96,8 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '3',
         difficulty: '4',
-        img: 'https://th.bing.com/th/id/OIP.lOiI-oI6x3YTDZdpM8GrYAHaE7?w=270&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7'
+        img: 'https://mobileimages.lowes.com/productimages/e0c410da-1c3b-4896-98c3-f369efb9b1be/02859852.jpg?size=pdhism',
+        ref: 'https://www.lowes.com/pd/Pachira-Money-Tree-in-L20962hp/4759296'
     },
     {
         name: 'Alocasia',
@@ -93,7 +105,8 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '7',
         difficulty: '5',
-        img: 'https://th.bing.com/th/id/R.6949633a8d743183c2560bdfceaa0224?rik=i6R2EqEFC6mceA&pid=ImgRaw&r=0'
+        img: 'https://mobileimages.lowes.com/productimages/fea6283d-57f2-43d2-b958-6d6ad2808fdc/49043964.jpg?size=pdhism',
+        ref: 'https://www.lowes.com/pd/Costa-Farms/5013595947'
     },
     {
         name: 'Yucca',
@@ -101,7 +114,8 @@ var houseplant = [
         moisture: '0 to 40',
         sunlight: '7',
         difficulty: '4',
-        img: 'https://th.bing.com/th/id/R.c278412c43315195a3d1bce8dfca687e?rik=8Z6HUb1xsTbw6A&pid=ImgRaw&r=0'
+        img: 'https://mobileimages.lowes.com/productimages/d259336c-1b58-461d-9c46-68e392ef8f11/04299219.jpg?size=pdhism',
+        ref: 'https://www.lowes.com/pd/1-75-Gallon-White-Yucca-Cane-in-Plastic-Pot-L20982hp/1000151689'
     },
     {
         name: 'African Violets',
@@ -109,7 +123,8 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '8',
         difficulty: '6',
-        img: 'https://gardenswhisper.com/wp-content/uploads/how-often-should-you-water-african-violets.jpg'
+        img: 'https://gardenswhisper.com/wp-content/uploads/how-often-should-you-water-african-violets.jpg',
+        ref: 'https://gardenswhisper.com/wp-content/uploads/how-often-should-you-water-african-violets.jpg'
     },
     {
         name: 'Spider Plant',
@@ -117,7 +132,8 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '9',
         difficulty: '2',
-        img: 'https://th.bing.com/th/id/OIP.KHkViqG5WyQsCQZGRR968wHaE9?w=256&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7'
+        img: 'https://mobileimages.lowes.com/productimages/a217eefb-2164-4a4b-83b6-1e10c347aea0/44301912.jpg?size=pdhism',
+        ref: 'https://www.lowes.com/pd/National-Plant-Network-1-in-es-Spider-Plant-Pot-Houseplant/1003237620'
     },
     {
         name: 'Peperomia',
@@ -125,7 +141,8 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '14',
         difficulty: '2',
-        img: 'https://th.bing.com/th/id/OIP.NfJs7E5SHYEhyVLQ3Jsx-wHaEK?w=304&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7'
+        img: 'https://mobileimages.lowes.com/productimages/ec75158e-bef3-4e70-928d-e747a936014b/46432239.jpg?size=pdhz',
+        ref: 'https://www.lowes.com/pd/Greendigs-GRNDGS-SHLF-PEPRMA-FLUTED-WHITE/5013200129'
     },
     {
         name: 'Air Plant',
@@ -133,7 +150,8 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '12',
         difficulty: '7',
-        img: 'https://th.bing.com/th/id/OIP.tG-TwxnzUQQEX2X0ola-BwHaFj?pid=ImgDet&rs=1'
+        img: 'https://mobileimages.lowes.com/productimages/5842a672-e354-4048-a13b-f389084aa328/47735899.png?size=pdhism',
+        ref: 'https://www.lowes.com/pd/LiveTrends/5005916965'
     },
     {
         name: 'Bird’s Nest Fern',
@@ -141,7 +159,8 @@ var houseplant = [
         moisture: '21 to 40',
         sunlight: '2',
         difficulty: '6',
-        img: 'https://th.bing.com/th/id/OIP.woneNruYuotxDlfSS23g_AHaE8?w=298&h=199&c=7&r=0&o=5&dpr=1.1&pid=1.7'
+        img: 'https://mobileimages.lowes.com/productimages/8198d31a-702f-4437-86f2-554a5f0bf69d/49633182.jpg?size=pdhism',
+        ref: 'https://www.lowes.com/pd/National-Plant-Network-1-in-es-Birds-Nest-Fern-Pot-N-A/1003237604'
     },
     {
         name: 'Peace Lily',
@@ -149,7 +168,8 @@ var houseplant = [
         moisture: '21 to 40',
         sunlight: '8',
         difficulty: '4',
-        img: 'https://th.bing.com/th/id/OIP.QUE2TGqEJqzCeQDsTvgI_QHaE9?w=268&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7'
+        img: 'https://mobileimages.lowes.com/productimages/21f1cafd-e82c-4364-9176-bbd5f918a554/49044411.jpg?size=pdhism',
+        ref: 'https://www.lowes.com/pd/Costa-Farms/5013595865'
     },
     {
         name: 'Aloe',
@@ -157,7 +177,8 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '3',
         difficulty: '5',
-        img: 'https://th.bing.com/th/id/R.3448593f9179d81d1e54e5bc8db4914b?rik=spMO1Eu%2blzzaOg&pid=ImgRaw&r=0'
+        img: 'https://mobileimages.lowes.com/productimages/8595b2ce-7be4-431c-aa8d-7f4adeedd58b/49043962.jpg?size=pdhz',
+        ref: 'https://www.lowes.com/pd/Costa-Farms/5013595887'
     },
     {
         name: 'English Ivy',
@@ -165,7 +186,8 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '3',
         difficulty: '3',
-        img: 'https://th.bing.com/th/id/OIP.8OKt3-QLpMbjelPjLXQoBwHaEK?w=292&h=180&c=7&r=0&o=5&dpr=1.1&pid=1.7'
+        img: 'https://mobileimages.lowes.com/productimages/fc28eb5c-cab4-4c28-8987-1b0a4342339d/08315801.jpg?size=pdhism',
+        ref: 'https://www.lowes.com/pd/Waterwick-1-4-Quart-Pothos-in-Plastic-Planter/1000272785'
     },
     {
         name: 'Dragon Tree',
@@ -173,7 +195,8 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '5',
         difficulty: '5',
-        img: 'https://www.mydomaine.com/thmb/ekcEmrfe3eKo9gSoSss6dcZMDeg=/500x350/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-940610580-8730bfd31b5d40e981029d35ef9c2abe.jpg'
+        img: 'https://mobileimages.lowes.com/productimages/332fc748-5679-4e54-abe7-1c54b7bee0de/49044462.jpg?size=pdhism',
+        ref: 'https://www.lowes.com/pd/Costa-Farms/5013595785'
     },
     {
         name: 'Anthurium',
@@ -181,7 +204,8 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '4',
         difficulty: '4',
-        img: 'https://media.greg.app/Y2FyZS1wbGFudC1wcm9maWxlLzgxNjQwLzY2ODAyNEZELUY0NzAtNEE2NS1CRTAyLUVFRjRFNzIyQUY5MS5wbmc=?format=pjpeg&optimize=high&auto=webp&width=450'
+        img: 'https://mobileimages.lowes.com/productimages/cdf0effd-a826-4139-9cc4-3ceb4861921c/49044193.jpg?size=pdhism',
+        ref: 'https://www.lowes.com/pd/Costa-Farms/5013595871'
     },
     {
         name: 'Calathea',
@@ -189,7 +213,8 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '9',
         difficulty: '4',
-        img: 'https://th.bing.com/th/id/OIP.lrnoOhlqoLdJCL19Pn7JVgHaLG?pid=ImgDet&rs=1'
+        img: 'https://mobileimages.lowes.com/productimages/e0bc930d-53c9-4cb5-a9b9-f4b78e6a4721/48055484.jpg?size=pdhism',
+        ref: 'https://www.lowes.com/pd/1-40-QT-Calathea-Dottie-TT/5005553297'
     },
     {
         name: 'Croton',
@@ -197,7 +222,8 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '6',
         difficulty: '3',
-        img: 'https://th.bing.com/th/id/OIP.kxWWUpdXRAktPlEr9_Ln9AAAAA?pid=ImgDet&rs=1'
+        img: 'https://mobileimages.lowes.com/productimages/52f1afdd-ced8-4d79-ba2e-72fe7a89af61/09848887.jpg?size=xl',
+        ref: 'https://www.lowes.com/pd/Costa-Farms-10-in-Croton-Petra-in-Plastic-Pot-Pe10/1000605105'
     },
     {
         name: 'Rubber Plant',
@@ -205,7 +231,8 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '4',
         difficulty: '2',
-        img: 'https://th.bing.com/th/id/OIP.buzp6uqMpzIuzbZeZ3CGkQHaFe?pid=ImgDet&rs=1'
+        img: 'https://mobileimages.lowes.com/productimages/6b31a7f4-f2cd-4b2b-94ed-cbb577c91553/62236959.jpg?size=xl',
+        ref: 'https://www.lowes.com/pd/Altman-Plants-Ruby-Rubber-Tree-House-Plant-in-1-3-Quart-Pot/5014235631'
     },
     {
         name: 'Bromeliad',
@@ -213,7 +240,9 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '6',
         difficulty: '4',
-        img: 'https://th.bing.com/th/id/R.c0f3979765d25416972366ec0ba55dfe?rik=A%2b%2bmLhMHGLtQrA&pid=ImgRaw&r=0'
+        img: 'https://mobileimages.lowes.com/productimages/1ed73f22-4273-4a8d-afd3-ab52c6eadf18/49044050.jpg?size=pdhism',
+        ref: 'https://www.lowes.com/pd/Costa-Farms/5013595815'
+
     },
     {
         name: 'Jade Plant',
@@ -221,7 +250,8 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '4',
         difficulty: '4',
-        img: 'https://th.bing.com/th/id/R.2d66a944053d48ad1a3f28649f2eb65a?rik=yfX4uKEJFzwiKQ&pid=ImgRaw&r=0'
+        img: 'https://mobileimages.lowes.com/productimages/616f518c-bdef-40d3-9854-f7bae4a385f6/10021151.jpg?size=pdhism',
+        ref: 'https://www.lowes.com/pd/Brussel-s-Bonsai-1-in-Dwarf-Jade-In-Zen-Pot-in-Ceramic-Planter-Dt1417djz/1000663843'
     },
     {
         name: 'Kalanchoe',
@@ -229,7 +259,8 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '2',
         difficulty: '6',
-        img: 'https://th.bing.com/th/id/R.022a0df53a65cb7ec29179df555401db?rik=GK9TCVg2a5tmtQ&pid=ImgRaw&r=0'
+        img: 'https://mobileimages.lowes.com/productimages/b1f7fbe6-ed42-4458-90a0-dc4bc5eb2816/61556556.png?size=pdhism',
+        ref: 'https://www.lowes.com/pd/1-25-PT-4-5IN-KALANCHOE/5014167845'
     },
     {
         name: 'Staghorn Fern',
@@ -237,7 +268,8 @@ var houseplant = [
         moisture: '21 to 40',
         sunlight: '2',
         difficulty: '8',
-        img: 'https://th.bing.com/th/id/R.020e479e68e592c539333c6c183e0e5a?rik=0nSiIAdvfbGoLQ&pid=ImgRaw&r=0'
+        img: 'https://mobileimages.lowes.com/productimages/af040b46-bb44-449b-bb22-ac686694fc01/11906432.jpg?size=pdhism',
+        ref: 'https://www.lowes.com/pd/allen-roth-A-R-18-in-Art-Potted-Boston-Fern/1001484842'
     },
     {
         name: 'Ponytail Palm',
@@ -245,7 +277,8 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '8',
         difficulty: '3',
-        img: 'https://th.bing.com/th/id/OIP.5SnB2DkChSeMbXDyn45UBgHaIB?pid=ImgDet&rs=1'
+        img: 'https://mobileimages.lowes.com/productimages/a8c8a4d3-7a91-486a-a9a9-51338f73f6c3/49044121.jpg?size=xl1',
+        ref: 'https://www.lowes.com/pd/Costa-Farms/5013595987'
     },
     {
         name: 'Phalaenopsis Orchid',
@@ -253,7 +286,8 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '13',
         difficulty: '6',
-        img: 'https://th.bing.com/th/id/OIP.Xj6dunDhwG4fdrm-PPEY9wHaEK?pid=ImgDet&rs=1'
+        img: 'https://mobileimages.lowes.com/productimages/d73cc9e9-234e-49fd-8919-6071df9b108e/00544560.jpg?size=pdhism',
+        ref: 'https://www.lowes.com/pd/Nearly-Natural-9-in-Cream-Phalaenopsis/3142807'
     },
     {
         name: 'Philodendron',
@@ -261,7 +295,8 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '5',
         difficulty: '2',
-        img: 'https://www.gardenerreport.com/wp-content/uploads/2021/03/0_0_InShot_20210312_224631557-3.jpg'
+        img: 'https://mobileimages.lowes.com/productimages/ddf571bd-23f2-4513-90eb-3ea66565b83b/62204391.jpg?size=xl',
+        ref: 'https://www.lowes.com/pd/Trending-Tropicals/5013595915'
     },
     {
         name: 'Begonia',
@@ -269,7 +304,8 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '12',
         difficulty: '8',
-        img: 'https://cdn.apartmenttherapy.info/image/upload/v1558601180/at/archive/f63e2b6173a7fa62b9dc20411eb25119933bc8ae.jpg'
+        img: 'https://mobileimages.lowes.com/productimages/c0d1c746-db89-4db0-aa73-a9c6781f64a6/48767911.jpg?size=xl',
+        ref: 'https://www.lowes.com/pd/1-75-Gal-Tuberous-Begonia-Annual-Plant-Orange-1-Pack/5013562301'
     },
     {
         name: 'Crown of Thorns',
@@ -277,7 +313,8 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '3',
         difficulty: '4',
-        img: 'https://smartgardenguide.com/wp-content/uploads/2019/11/crown-of-thorns-plant-care-euphorbia-milii-12.jpg'
+        img: 'https://smartgardenguide.com/wp-content/uploads/2019/11/crown-of-thorns-plant-care-euphorbia-milii-12.jpg',
+        ref: 'https://smartgardenguide.com/crown-of-thorns-plant-care/'
     },
     {
         name: 'Christmas Cactus',
@@ -285,7 +322,8 @@ var houseplant = [
         moisture: '0 to 40',
         sunlight: '8',
         difficulty: '2',
-        img: 'https://www.almanac.com/sites/default/files/styles/or/public/image_nodes/thanksgiving-cactus_nadezhdanesterova-ss.jpg?itok=DGGxsi2b'
+        img: 'https://mobileimages.lowes.com/productimages/83319ab6-a186-4f90-bb1d-4d06d5976774/00819432.jpg?size=pdhism',
+        ref: 'https://www.lowes.com/pd/Red-Christmas-Cactus-in-L22289/3563292'
     },
     {
         name: 'Snake Plant',
@@ -293,7 +331,8 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '9',
         difficulty: '1',
-        img: 'https://hgtvhome.sndimg.com/content/dam/images/grdn/fullset/2014/6/25/0/CI_11-f7ff0e380000.jpg.rend.hgtvcom.1280.1280.suffix/1452664589098.jpeg'
+        img: 'https://mobileimages.lowes.com/productimages/9d5da29d-dd8c-498c-af58-3205a0a31940/49044164.jpg?size=pdhism',
+        ref: 'https://www.lowes.com/pd/Costa-Farms/5013595821'
     },
     {
         name: 'Schefflera',
@@ -301,7 +340,8 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '6',
         difficulty: '3',
-        img: 'https://plantura.garden/uk/wp-content/uploads/sites/2/2022/05/schefflera-arboricola-pot-1024x681.jpg?x96810'
+        img: 'https://mobileimages.lowes.com/productimages/faaf7054-c21f-41ed-995b-db35290ce12b/49044367.jpg?size=pdhism',
+        ref: 'https://www.lowes.com/pd/Costa-Farms/5013595897'
     },
     {
         name: 'Aspidistra elatior',
@@ -309,7 +349,8 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '4',
         difficulty: '1',
-        img: 'https://smartgardenguide.com/wp-content/uploads/2018/10/cast-iron-plant-care.jpg'
+        img: 'https://mobileimages.lowes.com/productimages/892ea7dc-928c-46f9-93e2-b9f2af42835e/48680618.jpg?size=xl',
+        ref: 'https://www.lowes.com/pd/National-Tree-Company/5013538715'
     },
     {
         name: 'Succulents',
@@ -317,7 +358,8 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '5',
         difficulty: '6',
-        img: 'https://hgtvhome.sndimg.com/content/dam/images/hgtv/fullset/2017/8/23/1/Original_Alison-Gootee_098.jpg.rend.hgtvcom.336.252.suffix/1503535018325.jpeg'
+        img: 'https://mobileimages.lowes.com/productimages/48b0f523-ee9b-43fd-8e8f-7ef4cd739d79/02811386.jpg?size=pdhism',
+        ref: 'https://www.lowes.com/pd/Cacti-and-Succulents-Mixed-in-Lwaltcs/4763685'
     },
     {
         name: 'Banana Plants',
@@ -325,7 +367,8 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '6',
         difficulty: '5',
-        img: 'https://www.gardeningknowhow.com/wp-content/uploads/2021/03/banana-houseplant.jpg'
+        img: 'https://mobileimages.lowes.com/productimages/48d6ea77-33b5-4d72-963e-8b7779e53b12/16803142.jpg?size=pdhism',
+        ref: 'https://www.lowes.com/pd/National-Plant-Network-1-in-es-String-of-Bananas-Pot-Houseplant/1003237614'
     },
     {
         name: 'Carnivorous Plants',
@@ -333,6 +376,7 @@ var houseplant = [
         moisture: '20 to 60',
         sunlight: '6',
         difficulty: '7',
-        img: 'https://images.ctfassets.net/rp89vkans22z/3ywGXtFbJPhCptNGIaez18/8e0a013db990b5cf09e3312bd37299aa/AdobeStock_182860194.jpeg'
+        img: 'https://mobileimages.lowes.com/productimages/cc96b432-6bfe-46ef-937c-411b197cb05d/41027807.jpg?size=pdhism',
+        ref: 'https://www.lowes.com/pd/6-in-es-Philodendron-brasil-Plant-hanging-basket-Hanging-basket-PHLBRL006/5001265189'
     },
 ]

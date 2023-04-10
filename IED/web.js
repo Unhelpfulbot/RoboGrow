@@ -1,5 +1,12 @@
 var feedback;
+var min_moisture;
+var min_light;
 
+function getinput(){
+  min_light = document.getElementById("sunlight").value;
+  min_moisture = document.getElementById("moisture").value;
+
+}
 function sendmsg(){
     var email = document.getElementById("email").value;
     var phone = document.getElementById("phone").value;
