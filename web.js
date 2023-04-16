@@ -12,7 +12,7 @@ function sendrequest(){
   var wifi = document.getElementById("wifi").value;
   var pass = document.getElementById("password").value;
   const emailformat = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-  if(device == ""|| email == ""){
+  if(device == ""|| email == ""|| wifi == ""|| pass == ""){
     alert("You left at least one portion blank");
     return;
 } 
