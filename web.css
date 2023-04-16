@@ -4,7 +4,9 @@ html, body{
     position: relative;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+}
+body{
+    overflow-y: scroll;
 }
 #return{
     position: absolute;
