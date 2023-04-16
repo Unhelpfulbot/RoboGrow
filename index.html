@@ -6,10 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Robo Grow Website</title>
     <link rel="stylesheet" href="web.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
-    <link rel="stylessheet" href="https://fonts.googleapis.com/css?family=EB+Garamond">
-    <link rel="stylessheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Lora|Audiowide|Permanent+Marker|EB+Garamond|ABeeZee">
     <script type="text/javascript" src="web.js"></script>
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
     <script type="text/javascript" src="plantdata.js"></script>
@@ -21,10 +18,10 @@
         <div id="navbar">
             <a class="butholder" href="#page1"><button class="navbut" id="home"> Home </button></a>
             <a class="butholder" href="#page2"><button class="navbut" id="plants"> Plants </button></a>
-            <a class="butholder" href="#page3"><button class="navbut" id="help"> Assemble </button></a>
+            <a class="butholder" href="#page3"><button class="navbut" id="help"> Set Up </button></a>
             <a class="butholder" href="#page4"><button class="navbut" id="support"> Service </button></a>
         </div>
-        <div id="name"> <img id="logo" src="chip (1).png"> Robo Grow </div>
+        <div id="name"> <img id="logo" src="robogrowlogo.png"> Robo Grow </div>
         <div id="desc">
             <p id="slogan"> Put the Responsibility on Our Hands</p>
             <p id="desc-text"> Our Product Robo Grow serves to take care of you plant at any time and anywhere.</p>
@@ -129,7 +126,8 @@
                         img.style.borderRight = "solid 1px black"
                         div2.appendChild(img);
                         const para = document.createElement("p");
-                        para.style.fontFamily = "Lobster";
+                        para.style.fontFamily = "ABeeZee";
+                        para.style.fontWeight = "600";
                         para.style.width = "60%"
                         para.style.fontSize = "75%";
                         para.style.display = "block";
@@ -161,13 +159,28 @@
 
     <div class="page3" id="page3">
         <a href="#page1"><button id="return"> Return </button></a>
-        <div id="topbg2"> <center><p id="assembletxt">Assembling Process</p></center> </div>
+        <div alt="https://www.pinterest.com/ideas/" id="topbg2"> <center><p id="assembletxt">Set Up Process</p></center> </div>
         <div id="instruction">
-                <center>
-                    <p id="input-name">Hours of Sunlight</p> <input class="inputbox" name="sunlight" type="text" placeholder="6">
-                    <p id="input-name">Minimum Moisture(%)</p> <input class="inputbox" name="moisture" type="text" placeholder="21">
-                    <p id="input-name">Placeholder</p> <input class="inputbox" name="sunlight" type="text" placeholder="6">
-                </center>
+                <div alt="https://wallpaperaccess.com/dna" id="requestheaderbg">
+                    <center>
+                        <p id="requestinfo"> Set up your Arduino Account: <a href="https://create.arduino.cc/iot">Click Here</a></p>
+                        <p id="requestinfo"> Submit request form below to gain access, this will take 1-3 days.</p>
+                    </center>
+                </div>
+                <div id="requestform">
+                    <center>
+                    <p id="requesttxt"> Email </p>
+                    <input class="inputboxreq" name="emailreq" id="emailreq" type="text" placeholder="name@email.com">
+                    <p id="requesttxt"> Device Name </p>
+                    <input class="inputboxreq" name="device" id="device" type="text" placeholder="ROBOGROW041323">
+                    <p id="requesttxt"> Your Wifi SSID </p>
+                    <input class="inputboxreq" name="wifi" id="wifi" type="text" placeholder="">
+                    <p id="requesttxt"> Wifi Password </p>
+                    <input class="inputboxreq" name="password" id="password" type="password" placeholder="">
+                    <br>
+                    <button class="submit" id="submitreq" href="#" onclick="sendrequest()"> Submit </button>
+                    </center>
+                </div> 
             </div>
         </div>
     </div>
@@ -188,7 +201,7 @@
             <button class="submit" id="submit" href="#" onclick="sendmsg()"> Submit </button>
             </div>
             <div id="submitted">
-                <p id="submittxt"> You have Submitted the Form, Now an email tab will pop up </p>
+                <p id="submittxt"> You have Submitted the Form. Just press the send email button and you are all set</p>
             </div>
             </center>
         </div>

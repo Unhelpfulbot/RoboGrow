@@ -254,48 +254,34 @@ html, body{
     color: rgb(112, 112, 112);
 }
 #instruction{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
     position: absolute;
-    background-color: rgb(115, 149, 114);
+    background-color: rgba(86, 188, 117, 0.671);
     border: green solid 2px;
     width: 90%;
     top: 20%;
     height: 75%;
     left: 5%;
-    overflow: hidden;
-}
-#extension {
-    display: flex;
-    height: 100%;
-    width: 3000px;
-}
-#instruct-container{
-    position: relative;
-    border: solid black 2px;
-    width: 300px;
-    height: 96%;
-    margin-top: auto;
-    margin-bottom: auto;
-    background: white;
-    overflow: hidden;
-}
-#instruct-desc{
-    border-top: 1px solid rgb(206, 206, 206);
-    bottom: 0;
-    font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 500;
-    width: 300px;
-    height: 500px;
     margin: 0;
     padding: 0;
-    text-shadow: 1px 1px 1px gray;
-    background: rgb(233, 231, 231);
 }
-#partimg{
-    width: 180px;
-    height: 180px;
-    margin: 5px;
-    border: 2px dotted black;
+#requestheaderbg{
+    position: absolute;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 100%;
+    height: 150px;
+    background-image: url("woodbg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border-bottom: solid black 3px;
+}
+#line{
+    border: black solid 3px;
+    color: black;
 }
 #input-name{
     font-size: 24px;
@@ -303,6 +289,50 @@ html, body{
     font-weight: 700;
 }
 
+#requestinfo{
+    font-family: 'Permanent Marker';
+    font-size: calc(16px + 0.7vw);
+    font-weight: 600;
+    text-shadow: 1px 1px 1px gray;
+}
+
+#requestform{
+    left: 5%;
+    width: 90%;
+    position: absolute;
+    top: 150px;
+    margin-top: 3vh;
+}
+#requesttxt{
+    margin: 0;
+    font-size: calc(16px + 0.7vw);
+    font-weight: 600;
+    font-family: "EB Garamond";
+}
+.inputboxreq{
+    height: 25px;
+    width: 250px;
+    background-image: url("greengradientbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: "EB Garamond";
+    font-weight: 700;
+    text-align: center;
+    font-size: 18px;
+}
+#submitreq{
+    margin-top: 5%;
+    width: 200px;
+    height: 50px;
+    background-image: url("woodbg.jpg");
+    font-family: 'Permanent Marker';
+    font-size: 16px;
+    text-shadow: 1px 1px 1px gray;
+    border-radius: 15px;
+}
 /* Page 4 */
 #topbg{
     position: absolute;
@@ -337,8 +367,12 @@ html, body{
 .inputbox{
     height: 25px;
     width: 250px;
-    background-color: rgba(128, 128, 128, 0.749);
-    border: 2px solid black;
+    background-color: rgba(180, 180, 180, 0.749);
+    color: black;
+    border: 3px solid black;
+    font-family: "EB Garamond";
+    font-weight: 500;
+    border-radius: 10px;
     text-align: center;
     font-size: 16px;
 }
@@ -346,17 +380,25 @@ html, body{
     height: 120px;
     min-width: 250px;
     width: 80%;
-    background-color: rgba(128, 128, 128, 0.749);
-    border: 2px solid black;
+    background-color: rgba(180, 180, 180, 0.749);
+    color: black;
+    border: 3px solid black;
+    font-family: "EB Garamond";
+    font-weight: 500;
+    border-radius: 25px;
     text-align: center;
     font-size: 16px;
 }
 #submit{
-    margin-top: 2%;
+    margin-top: 5%;
     width: 200px;
     height: 50px;
-    background: rgba(173, 216, 230, 0.815);
-    font-size: 16px;
+    background-image: url("gradientbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Permanent Marker", Serif;
     text-shadow: 1px 1px 1px gray;
     border-radius: 15px;
 }
@@ -364,7 +406,7 @@ html, body{
     display: none;
 }
 #submittxt{
-    font-family: 'Audiowide';
+    font-family: 'Permanent Marker';
     font-size: calc(36px + 2vw);
     text-shadow: 1px 1px 1px gray;
 }

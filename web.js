@@ -1,12 +1,38 @@
 var feedback;
-var min_moisture;
-var min_light;
 
 function getinput(){
   min_light = document.getElementById("sunlight").value;
   min_moisture = document.getElementById("moisture").value;
 
 }
+
+function sendrequest(){
+  var email = document.getElementById("emailreq").value;
+  var device = document.getElementById("device").value;
+  var wifi = document.getElementById("wifi").value;
+  var pass = document.getElementById("password").value;
+  const emailformat = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  if(device == ""|| email == ""){
+    alert("You left at least one portion blank");
+    return;
+} 
+if (!emailformat.test(email))
+  {
+    alert("Email is not in the right format");
+    return;
+} 
+  feedback = "Email Address: " + email + "\nDevice: " + device +"\nWifi SSID: " + wifi + "\nWifi Passowrd: " + pass;
+  document.location.href = "mailto:smithr25@rpi.edu?subject="
+    + encodeURIComponent("Robo Grow Request Access Form")
+    + "&body=" + encodeURIComponent(feedback) 
+  ;
+  alert("Request has been sent");
+  document.getElementById("emailreq").value = "";
+  document.getElementById("device").value = "";
+  document.getElementById("wifi").value = "";
+  document.getElementById("password").value = "";
+}
+
 function sendmsg(){
     var email = document.getElementById("email").value;
     var phone = document.getElementById("phone").value;
