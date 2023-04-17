@@ -145,7 +145,7 @@ html, body{
 #team{
     position: absolute;
     right: 0;
-    top: 70vh;
+    top: 60vh;
     width: 60vw;
     min-width: 300px;
     background-image: url("woodbg.jpg");
@@ -336,6 +336,7 @@ html, body{
     font-size: 16px;
     text-shadow: 1px 1px 1px gray;
     border-radius: 15px;
+    border: solid 2px black;
 }
 /* Page 4 */
 #topbg{
@@ -405,6 +406,7 @@ html, body{
     font-family: "Permanent Marker", Serif;
     text-shadow: 1px 1px 1px gray;
     border-radius: 15px;
+    border: solid 2px black;
 }
 #submitted{
     display: none;
