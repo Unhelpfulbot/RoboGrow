@@ -145,7 +145,7 @@ html, body{
 #team{
     position: absolute;
     right: 0;
-    top: 70vh;
+    top: 65vh;
     width: 60vw;
     min-width: 300px;
     background-image: url("woodbg.jpg");
