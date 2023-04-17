@@ -4,10 +4,9 @@ html, body{
     position: relative;
     margin: 0;
     padding: 0;
+    overflow:hidden;
 }
-body{
-    overflow-y: scroll;
-}
+
 #return{
     position: absolute;
     top: 3%;
@@ -47,6 +46,7 @@ body{
 .page2{
     width: 100%;
     height: 100%;
+    overflow: visible;
     display: flex;
     position: relative;
     margin: 0;
@@ -112,6 +112,8 @@ body{
 #logo{
     width: 120px;
     height: 120px;
+    min-width: 80px;
+    min-height: 80px;
     margin-right: 20px;
 }
 #name{
@@ -130,7 +132,7 @@ body{
 #desc{
     position: absolute;
     right: 0;
-    top: 30%;
+    top: 40vh;
     width: 60vw;
     min-width: 300px;
     background-image: url("woodbg.jpg");
@@ -143,7 +145,7 @@ body{
 #team{
     position: absolute;
     right: 0;
-    top: 60%;
+    top: 70vh;
     width: 60vw;
     min-width: 300px;
     background-image: url("woodbg.jpg");
@@ -160,7 +162,7 @@ body{
     margin-left: 9vw;
     margin-top: 2vh;
     width: 80%;
-    font-size: calc(16px + 1vw);
+    font-size: calc(12px + 1vw);
     color: black;
     text-shadow: 1px 1px 1px black, 2px 2px 1vw rgb(203, 145, 36), 3px 3px 2vw gray;
     font-family: 'Lora', serif;
@@ -170,7 +172,7 @@ body{
     width: 80%;
     margin-left: 8vw;
     font-weight: 800;
-    font-size: calc(14px + 1vw);
+    font-size: calc(12px + 0.7vw);
     color: black;
     text-shadow: 1px 1px 1px rgb(96, 95, 95);
     font-family: "EB Garamond", serif;
@@ -240,6 +242,9 @@ body{
 /* Page 3 */
 #topbg2{
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 15%;
     width: 100%;
     background-image: url("plantbg3.jpg");
@@ -248,14 +253,12 @@ body{
     z-index: 1;
 }
 #assembletxt{
-    font-size: 42px;
+    font-size: calc(30px + 2vh);
     text-shadow: 1px 1px 1px black, 2px 2px 1.5px white;
     font-family: 'Lobster';
     color: rgb(112, 112, 112);
 }
 #instruction{
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
     position: absolute;
     background-color: rgba(86, 188, 117, 0.671);
     border: green solid 2px;
@@ -265,13 +268,12 @@ body{
     left: 5%;
     margin: 0;
     padding: 0;
+    overflow-y: scroll;
 }
 #requestheaderbg{
     position: absolute;
-    border-top-left-radius: 50px;
-    border-top-right-radius: 50px;
     width: 100%;
-    height: 150px;
+    height: 30%;
     background-image: url("woodbg2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -300,18 +302,20 @@ body{
     left: 5%;
     width: 90%;
     position: absolute;
-    top: 150px;
+    top: 30%;
     margin-top: 3vh;
 }
 #requesttxt{
     margin: 0;
-    font-size: calc(16px + 0.7vw);
+    font-size: calc(14px + 0.7vw);
     font-weight: 600;
     font-family: "EB Garamond";
 }
 .inputboxreq{
     height: 25px;
+    min-height: 10px;
     width: 70vw;
+    margin: 0;
     background-image: url("greengradientbg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -321,10 +325,10 @@ body{
     font-family: "EB Garamond";
     font-weight: 700;
     text-align: center;
-    font-size: 18px;
+    font-size: calc(8px + 2vh);
 }
 #submitreq{
-    margin-top: 5%;
+    margin-top: 3%;
     width: 200px;
     height: 50px;
     background-image: url("woodbg.jpg");
@@ -346,7 +350,7 @@ body{
 #contact{
     text-shadow: 1px 1px 1px white;
     font-family: 'Lobster';
-    font-size: 42px;
+    font-size: calc(30px + 2vh);
 }
 #inputinfo{
     position: absolute;
@@ -357,6 +361,7 @@ body{
     margin-right: 10%;
     border-left: 2px solid black;
     border-right: 2px solid black;
+    overflow-y: scroll;
     background:rgba(76, 167, 247, 0.534)
 }
 #contacttxt{
