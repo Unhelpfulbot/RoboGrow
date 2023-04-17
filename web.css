@@ -132,7 +132,7 @@ html, body{
 #desc{
     position: absolute;
     right: 0;
-    top: 40vh;
+    top: 35vh;
     width: 60vw;
     min-width: 300px;
     background-image: url("woodbg.jpg");
@@ -145,7 +145,7 @@ html, body{
 #team{
     position: absolute;
     right: 0;
-    top: 60vh;
+    top: 70vh;
     width: 60vw;
     min-width: 300px;
     background-image: url("woodbg.jpg");
